@@ -152,6 +152,10 @@ app.get('/', (req, res) => {
   res.send('Running genius server');
 })
 
+app.get('/hero', (req, res) => {
+  res.send('hero meets hero kuuuuuuuuuuuuulllllllllllllllll');
+})
+
 
 const port = process.env.PORT || 5000;
 
